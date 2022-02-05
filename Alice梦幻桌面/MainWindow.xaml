@@ -1,0 +1,13 @@
+﻿<Window x:Name="window" x:Class="Alice梦幻桌面.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alice梦幻桌面"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStyle="None" Loaded="Window_Loaded">
+    <Grid>
+        <MediaElement x:Name="MediaElement" Loaded="MediaElement_Loaded" MediaEnded="MediaElement_MediaEnded" LoadedBehavior="Manual"/>
+
+    </Grid>
+</Window>
